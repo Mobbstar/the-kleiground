@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="swap_throwingknife_flint">
+        <file id="0" name="swap_throwingknife_flint/swap_throwingknife_flint.png" width="76" height="312" pivot_x="0.409091" pivot_y="0.452077"/>
+    </folder>
+    <entity id="0" name="swap_throwingknife_flint">
+        <animation id="0" name="BUILD" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="swap_throwingknife_flint" folder="0" file="0" abs_x="-6.909091" abs_y="150.047923" abs_pivot_x="0.409091" abs_pivot_y="0.452077" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swap_throwingknife_flint">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-6.909091" y="150.047923" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
