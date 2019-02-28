@@ -100,14 +100,8 @@ Assets = {
 	
 	---------------
 	
-	Asset( "SOUNDPACKAGE", "sound/waria.fev"),
-    Asset( "SOUND", "sound/waria.fsb"),
-	
-	Asset( "SOUNDPACKAGE", "sound/molotov.fev"),
-    Asset( "SOUND", "sound/molotov.fsb"),
-
-	Asset( "SOUNDPACKAGE", "sound/healthbottle.fev"),
-    Asset( "SOUND", "sound/healthbottle.fsb"),
+	Asset( "SOUNDPACKAGE", "sound/kleiground.fev"),
+    Asset( "SOUND", "sound/kleiground.fsb"),
 
 }
 

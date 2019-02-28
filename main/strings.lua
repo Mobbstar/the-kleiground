@@ -20,19 +20,19 @@ local _newspeech = {
 	-- "iimaria",
 }
 local _languages = {
-	de = "de", --german
-	es = "es", --spanish
-	fr = "fr", --french
-	it = "it", --italian
-	ko = "ko", --korean
+	-- de = "de", --german
+	-- es = "es", --spanish
+	-- fr = "fr", --french
+	-- it = "it", --italian
+	-- ko = "ko", --korean
 	--Note: The only language mod I found that uses "pt" is also brazilian portuguese -M
-	pt = "pt", --portuguese
-	br = "pt", --brazilian portuguese
-	pl = "pl", --polish
-	ru = "ru", --russian
-	zh = "sc", --chinese
-	sc = "sc", --simple chinese
-	tc = "tc", --traditional chinese
+	-- pt = "pt", --portuguese
+	-- br = "pt", --brazilian portuguese
+	-- pl = "pl", --polish
+	-- ru = "ru", --russian
+	-- zh = "sc", --chinese
+	-- sc = "sc", --simple chinese
+	-- tc = "tc", --traditional chinese
 }
 
 local function merge(target, new, soft)

@@ -66,11 +66,4 @@ local function fn()
     return inst
 end
 
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.ROCKSHANK = {
-	"Minty!", 
-	
-}
-
-STRINGS.CHARACTERS.WENDY.DESCRIBE.ROCKSHANK = {"Using it is a metaphor for how life has treated me.",}
-
 return Prefab("rockshank", fn, assets)

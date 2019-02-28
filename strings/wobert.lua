@@ -183,14 +183,11 @@ return {
 	},
 	DESCRIBE =
 	{ 
-	PLAYER =
-		{
-			GENERIC = "That's %s.",
-			ATTACKER = "What's %s up to?",
-			MURDERER = "I don't appreciate senseless killing, %s.",
-			REVIVER = "%s is a thoughtful person.",
-			GHOST = "%s will need some help.",
-		},
+		MOLOTOV = "Oh, I like these.",
+		FLINTSHANK = "That'll have to do for now.",
+		THROWINGKNIFEFLINT = "If I'm lucky, I'll poke my enemies.",
+		SHANKSKULL = "Get in line. Lots of people want this.",
+		CESARSHANK = "I suppose I am bound forever to fighting...", --Maybe hint at Cesar?
 		
 		--KLEIGROUND CHARACTERS--
 		MARIA = 
@@ -218,6 +215,14 @@ return {
 			GHOST = "Now we clearly know which one is the better Shank.",
 		},
 		--End Kleiground
+		PLAYER =
+		{
+			GENERIC = "That's %s.",
+			ATTACKER = "What's %s up to?",
+			MURDERER = "I don't appreciate senseless killing, %s.",
+			REVIVER = "%s is a thoughtful person.",
+			GHOST = "%s will need some help.",
+		},
 		WILSON = 
 		{
 			GENERIC = "%s, have we met?",
@@ -306,16 +311,12 @@ return {
 			REVIVER = "%s has excellent command of the spirit realm.",
 			GHOST = "Do you desire a heart, %s?",
 		},
-
+		
 		BERNIE_INACTIVE =
 		{
 			BROKEN = "It's seen better days.",
 			GENERIC = "It makes me a little nostalgic.",
 		},
-		MOLOTOV = "Oh, I like these.",
-		FLINTSHANK = "That'll have to do for now.",
-		THROWINGKNIFEFLINT = "If I'm lucky, I'll poke my enemies.",
-		
 		BERNIE_ACTIVE = "Just what am I looking at here?",
 		BURNT_MARSH_BUSH = "Utterly destroyed.",
 		GLOMMER = "A flying goop factory.",

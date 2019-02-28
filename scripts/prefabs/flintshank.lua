@@ -53,9 +53,8 @@ local function fn()
     inst:AddComponent("inspectable")
 
     inst:AddComponent("inventoryitem")
-	inst.components.inventoryitem.imagename = "flintshank"
+	-- inst.components.inventoryitem.imagename = "flintshank"
     inst.components.inventoryitem.atlasname = "images/inventoryimages/flintshank.xml"
-	--Inventory image and atlas wasn't here, I added them.
 
     inst:AddComponent("equippable")
     inst.components.equippable:SetOnEquip(onequip)
@@ -65,14 +64,5 @@ local function fn()
 
     return inst
 end
-
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.FLINTSHANK = {
-	"I can't handle long stories, so let's cut to the chase.",
-	"It's not very knife to shank people!", 
-	"What's the point of all this violence?", 
-	
-}
-
-STRINGS.CHARACTERS.WENDY.DESCRIBE.FLINTSHANK = {"How unnecessarily violent.",}
 
 return Prefab("flintshank", fn, assets)

@@ -48,7 +48,7 @@ end
  
 local function OnExplodeFn(inst)
     inst.SoundEmitter:KillSound("hiss")
-    inst.SoundEmitter:PlaySound("molotov/sound/hit")
+    inst.SoundEmitter:PlaySound("kleiground/common/molotov/hit")
 	SpawnPrefab("explode_small").Transform:SetPosition(inst.Transform:GetWorldPosition())
     SpawnPrefab("glommerfuel").Transform:SetPosition(inst.Transform:GetWorldPosition()) --+ math.random (-1,1))
 	SpawnPrefab("glommerfuel").Transform:SetPosition(inst.Transform:GetWorldPosition())
@@ -102,9 +102,9 @@ local function common_fn(bank, build, anim, tag, isinventoryitem)
  
     inst:AddComponent("locomotor")
 	inst:AddComponent("burnable")
-	 MakeMediumBurnableCharacter(inst, "waterballoon01")
+	MakeMediumBurnableCharacter(inst, "waterballoon01")
 
- inst:AddComponent("complexprojectile")
+	inst:AddComponent("complexprojectile")
  
     return inst
 end
@@ -194,13 +194,5 @@ local function molotov_fn()
  
     return inst
 end
- 
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.MOLOTOV = {
-	"Quotes aren't ready.",
-	"I can't tell you much, it's unfinished.", 
-	"It's not ready yet.", 
-	
-}
-STRINGS.CHARACTERS.WENDY.DESCRIBE.MOLOTOV = {"The quotes aren't ready yet.",}
 
 return Prefab("molotov", molotov_fn, molotov_assets, molotov_prefabs)

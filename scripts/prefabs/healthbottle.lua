@@ -60,6 +60,8 @@ local function fn(Sim)
 	return inst
 end
 
+--move this junk to strings/common.lua, and rename the prefab PLEASE -M
+--or just scrap the entire file, doesn't seem very central to Shank anyways
 STRINGS.NAMES.HEALTHBOTTLE = "Applejack"
 
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.HEALTHBOTTLE = "Probably shouldn't let the kids drink it."

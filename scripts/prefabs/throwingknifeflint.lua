@@ -103,7 +103,7 @@ local function fn()
 
     inst:AddComponent("inspectable")
 
- inst:AddComponent("projectile")
+	inst:AddComponent("projectile")
     inst.components.projectile:SetSpeed(32)
     inst.components.projectile:SetCanCatch(true)
     inst.components.projectile:SetOnThrownFn(OnThrown)
@@ -125,10 +125,5 @@ local function fn()
 
     return inst
 end
-
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.throwingknifeflint = {
-	"Careful holding that.", 
-	
-}
 
 return Prefab("throwingknifeflint", fn, assets)

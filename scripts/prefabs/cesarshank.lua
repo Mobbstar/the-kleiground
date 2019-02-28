@@ -188,12 +188,4 @@ local function fn()
     return inst
 end
 
-
-
-STRINGS.CHARACTERS.GENERIC.DESCRIBE.CESARSHANK = {"It speaks to me!",} --Wilson, do not touch it.
-STRINGS.CHARACTERS.WOBERT.DESCRIBE.CESARSHANK = {"I suppose I am bound forever to fighting...",} --Maybe hint at Cesar?
-STRINGS.CHARACTERS.WENDY.DESCRIBE.CESARSHANK = {"I hear a faint cry from within.",} --Wendy, do not help it.
-STRINGS.CHARACTERS.WEBBER.DESCRIBE.CESARSHANK = {"It speaks to us!",}
-STRINGS.CHARACTERS.WX78.DESCRIBE.CESARSHANK = {"DETECTING PARANORMAL ACTIVITY.",}
-
 return Prefab("cesarshank", fn, assets)

@@ -59,3 +59,5 @@ AddModCharacter("waria", "FEMALE")
 ExcludeClothingSymbolForModCharacter("wobert", "arm_upper" )
 ExcludeClothingSymbolForModCharacter("wobert", "arm_upper_skin" )
 ExcludeClothingSymbolForModCharacter("wobert", "arm_lower" )
+
+--TODO make hounds have a stronger negative sanity aura to Shank
